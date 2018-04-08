@@ -1,0 +1,43 @@
+{
+  "name": "create-react-plus-app",
+  "version": "0.0.2",
+  "description": "This will create a create-react-app, but will also include firebase/firestore, bootstrap, redux, and react-router-dom. It will give you templated files for your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpha9094/create-react-plus-app.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "firebase",
+    "bootstrap",
+    "4",
+    "create-react-app"
+  ],
+  "bin": {
+    "create-full-app": "index.js"
+  },
+  "author": "Bobby \"Alpha\" Boyd",
+  "license": "Free",
+  "bugs": {
+    "url": "https://github.com/alpha9094/create-react-plus-app/issues"
+  },
+  "homepage": "https://github.com/alpha9094/create-react-plus-app#readme",
+  "dependencies": {
+    "@firebase/firestore": "^0.3.7",
+    "colors": "^1.2.1",
+    "firebase": "^4.12.1",
+    "firebase-tools": "^3.18.2",
+    "mkdirp": "^0.5.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "shelljs": "^0.8.1"
+  }
+}
