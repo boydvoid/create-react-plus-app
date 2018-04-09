@@ -21,19 +21,20 @@ Right after install in Firebase.js make sure you add your firebase config. Or el
 ++--src<br />
 -----|<br />
 -----|--Actions---------------<br />
------|---------Types.js---authenticateAction.js<br />
------|---Components<br />
------|--------Pages<br />
------|----------- Home<br />
------|----------------Home.js<br />
------|---Firebase<br />
+-----|-------Types.js---authenticateAction.js<br />
+-----|--Components<br />
+-----|-------Pages<br />
+-----|---------- Home<br />
+-----|--------------Home.js<br />
+-----|--Firebase<br />
 -----|------- Firebase.js<br />
------|---Reducers-----------------<br />
+-----|--Reducers-----------------<br />
 -----|------AuthReducer.js----Root.js<br />
------|---App.js<br />
------|---index.css<br />
------|---index.js<br />
------|---registerServiceWorker.js<br />
+-----|--Images<br />
+-----|--App.js<br />
+-----|--index.css<br />
+-----|--index.js<br />
+-----|--registerServiceWorker.js<br />
 -----|--store.js<br />
 
 You can find out what the new files contain below.
@@ -77,6 +78,8 @@ ________________________________________________________________________________
     Root.js: Where the combineReducers lives. Sets the initial state.
 ________________________________________________________________________________________________________________________________
 
+    Images: Images folder
+
     App.js: Deleted the content and on componentWillMount() I checked to see if there was a user. Set up Routes.
 
     Index.css: Unchanged from create-react-app.
@@ -88,7 +91,13 @@ ________________________________________________________________________________
     store.js: Created the store.
 ________________________________________________________________________________________________________________________________
 
+## Versions
 
+0.0.5--Fixed the authenticateAction path in App.js
+
+0.0.4--Some bug fixes, changed the package name which cause some tiny bugs.
+
+0.0.3--added Images folder 
 
 
 

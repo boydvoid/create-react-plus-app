@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 import {BrowserRouter, Route, Switch } from 'react-router-dom'
 //redux
 import { connect } from 'react-redux'
-import { authenticate } from './Actions/authenticateAction'
+import { authenticate } from './Actions/authenticateActions'
 
 //import Components
 import Home from './Components/Pages/Home/Home'

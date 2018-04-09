@@ -66,6 +66,10 @@ const installCreateReactApp = () => {
     return fs.mkdirSync(`${appDirectory}/src/Components/Pages/Home`)
   }
 
+  const createImagesFolder = () => {
+    return fs.mkdirSync(`${appDirectory}/src/Images`)
+  }
+
 
   const cdIntoNewApp = () => {
     return new Promise(resolve=>{
@@ -206,6 +210,7 @@ const installCreateReactApp = () => {
     await createReducersFolder()
     await createActionsFolder()
     await createHomeFolder()
+    await createImagesFolder()
     await installPackages()
     await updateTemplates()
     await addReducersTemplate()
